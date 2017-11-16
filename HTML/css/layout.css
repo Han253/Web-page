@@ -387,6 +387,58 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
+    [Promo Banner 2]
+------------------------------------------------------------------*/
+.promo-banner-2 {
+  position: relative;
+  z-index: 1;
+  text-align: center;  
+  min-height: 100%;
+}
+
+.promo-banner-2:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(81, 87, 105, 0.4);
+  content: " ";
+}
+
+.promo-banner-2 .promo-banner-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.promo-banner-2 .promo-banner-text {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/*------------------------------------------------------------------
+    [Imagenes Background]
+------------------------------------------------------------------*/
+.image_03{
+  background: url(../img/1920x1080/03.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.image_11{
+  background: url(../img/1920x1080/11.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+
+/*------------------------------------------------------------------
   	[Promo Block]
 ------------------------------------------------------------------*/
 .promo-block {
@@ -631,6 +683,15 @@ fieldset[disabled] .btn-theme {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
+
+/* Navbar Static */
+.header .navbar-static {
+  margin-bottom: 0;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
 
 /* Navbar Toggle */
 .header .navbar-toggle {
