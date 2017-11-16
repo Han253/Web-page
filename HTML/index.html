@@ -32,6 +32,8 @@
 
         <!-- THEME STYLES -->
         <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
@@ -284,45 +286,41 @@
             <div class="content-md container">
                 <div class="row">
                 <!-- FORMULARIO LUCHO DESDE AQUÍ-->
-
-                    <div class="margin-b-20">
-                     Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
-                    </div>
-
-
-                    <p>Formulario de Contacto</p>
+                    <h2>Contáctenos</h2>
 
 
                     <form>
-                      <div class="form-group">
-                        <label for="exampleFormControlInput1">Correo</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@electronico.com">
+                        <div class="form-group">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-sm-4 sm-margin-b-5">
+                                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                </div>
+
+                                <div class="col-md-4 md-margin-b-4">
+                                    <input type="email" class="form-control" id="correo" placeholder="correo@electronico.com">
+                                </div>
+
+                                <div class="col-md-4 sm-margin-b-4">
+                                    <input type="text" class="form-control" id="telefono" placeholder="Número Telefónico">
+                                </div>
+                            </div>
+
+                            <div class="row row-space-2">
+                                <div class="col-sm-12 sm-margin-b-4" >
+                                    <textarea class="form-control" id="escribe" rows="3" placeholder="Escribanos"></textarea>
+                                </div>
+                            </div>
+
+
                       </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect2">Example multiple select</label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
+
+                    <a class="btn-theme btn-theme-sm btn-default-bg text-uppercase margin-b-5" href="#" title="Enviar"><i class="btn-icon"></i>Enviar</a>
+
+                    <p>Al enviar tus datos manifiestas estar de acuerdo con la Política de protección de datos personales y privacidad de EvoTI</p>
+
                     </form>
+
+
 
                  <!-- HASTA AQUÍ-->
                 </div>
@@ -340,29 +338,32 @@
                         <div class="col-sm-2 sm-margin-b-30">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Home</a></li>
-                                <li class="footer-list-item"><a href="#">About</a></li>
-                                <li class="footer-list-item"><a href="#">Work</a></li>
-                                <li class="footer-list-item"><a href="#">Contact</a></li>
+                                <li class="footer-list-item"><a href="#">Inicio</a></li>
+                                <li class="footer-list-item"><a href="#">Servicios</a></li>
+                                <li class="footer-list-item"><a href="#">Productos</a></li>
+                                <li class="footer-list-item"><a href="#">Nosotros</a></li>
+                                <li class="footer-list-item"><a href="#">Contacto</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
+
                         <div class="col-sm-2 sm-margin-b-30">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a href="#">YouTube</a></li>
+                                <li class="footer-list-item"><i class="fa fa-whatsapp fa-lg fa-fw"></i><a href="https://www.whatsapp.com/"> WhatsApp</a></li>
+                                <li class="footer-list-item"><i class="fa fa-facebook fa-lg fa-fw"></i><a href="https://www.facebook.com/"> Facebook</a></li>
+                                <li class="footer-list-item"><i class="fa fa-instagram fa-lg fa-fw"></i><a href="https://www.instagram.com/"> Instagram</a></li>
+                                <li class="footer-list-item"><i class="fa fa-youtube-play fa-lg fa-fw"></i><a href="https://www.youtube.com/"> Youtube</a></li>
+                                <li class="footer-list-item"><i class="fa fa-twitter fa-lg fa-fw"></i><a href="https://twitter.com/"> Twitter</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
+
                         <div class="col-sm-3">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                                <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                                <li class="footer-list-item"><a href="#">Terms &amp; Conditions</a></li>
+                                <li class="footer-list-item"><a href="#">Política de Privacidad</a></li>
+                                <li class="footer-list-item"><a href="#">Términos &amp; Condiciones</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
@@ -389,7 +390,7 @@
         <!--========== END FOOTER ==========-->
 
         <!-- Back To Top -->
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Sube</a>
+        <i href="javascript:void(0);" class="js-back-to-top back-to-top icon-arrow-up"></i>
 
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
