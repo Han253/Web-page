@@ -151,6 +151,7 @@ h4 {
   outline: none;
 }
 
+
 /* Section Seperator */
 .section-seperator {
   border-bottom: 1px solid #edf0f2;
@@ -273,16 +274,18 @@ fieldset[disabled] .btn-theme {
 }
 
 .btn-default-bg {
-  color: #515769;
-  background: #f3f4f5;
+  color: #fff;
+  background: #17bed2;
   border-color: transparent;
   border-width: 0;
+  border-radius: 3px;
 }
 
 .btn-default-bg:hover, .btn-default-bg:focus, .btn-default-bg.focus {
   color: #fff;
-  background: #17bed2;
+  background: #14cce2;
   border-color: transparent;
+  border-radius: 3px;
 }
 
 .btn-theme-sm {
@@ -1080,8 +1083,8 @@ fieldset[disabled] .btn-theme {
   color: #a6a7aa;
   background: #fafafa;
   border: none;
-  box-shadow: none;
-  border-radius: 0;
+  box-shadow: inset 0 1px 3px 0;
+  border-radius: 5px;
   padding-left: 15px;
 }
 
@@ -1099,7 +1102,7 @@ fieldset[disabled] .btn-theme {
 
 .form-control:focus {
   color: #515769;
-  box-shadow: none;
+  box-shadow: inset 0 0 2px 1px;
 }
 
 .form-control:focus::-moz-placeholder {

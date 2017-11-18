@@ -278,38 +278,39 @@
                     <h2>Contáctenos</h2>
 
 
-                    <form>
+                    <form data-toggle="validator" role="form">
                         <div class="form-group">
                             <div class="row row-space-2 margin-b-4">
                                 <div class="col-sm-4 sm-margin-b-5">
-                                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                    <input type="text" class="form-control" id="nombre" required pattern="([A-z0-9À-ž\s]){2,}" title="Ingresa un nombre válido" placeholder="Nombre" minlength="3" maxlength="20" required>
                                 </div>
 
+       
                                 <div class="col-md-4 md-margin-b-4">
                                     <input type="email" class="form-control" id="correo" placeholder="correo@electronico.com">
                                 </div>
 
                                 <div class="col-md-4 sm-margin-b-4">
-                                    <input type="text" class="form-control" id="telefono" placeholder="Número Telefónico">
+                                    <input type="text" class="form-control" id="telefono" placeholder="Número Telefónico" minlength="7" maxlength="15" required>
                                 </div>
                             </div>
 
                             <div class="row row-space-2">
                                 <div class="col-sm-12 sm-margin-b-4" >
-                                    <textarea class="form-control" id="escribe" rows="3" placeholder="Escribanos"></textarea>
+                                    <textarea class="form-control" id="escribe" rows="3" minlength="3" placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
 
 
                       </div>
-
-                    <a class="btn-theme btn-theme-sm btn-default-bg text-uppercase margin-b-5" href="#" title="Enviar"><i class="btn-icon"></i>Enviar</a>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-theme btn-theme-sm btn-default-bg text-uppercase margin-b-5">Enviar</button>
+                    </div>
 
                     <p>Al enviar tus datos manifiestas estar de acuerdo con la Política de protección de datos personales y privacidad de EvoTI</p>
 
                     </form>
-
-
 
                  <!-- HASTA AQUÍ-->
                 </div>
