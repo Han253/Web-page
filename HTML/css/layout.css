@@ -430,6 +430,7 @@ fieldset[disabled] .btn-theme {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  border-radius: 2px;
 }
 
 
