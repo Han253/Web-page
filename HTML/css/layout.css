@@ -743,8 +743,8 @@ fieldset[disabled] .btn-theme {
 /* Navbar Static */
 .header .navbar-static {
   margin-bottom: 0;
-  background: #ffffff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+  border-bottom: 1px solid rgba(34, 136, 94, 0.3);
 }
 
 
