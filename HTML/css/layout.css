@@ -439,6 +439,13 @@ fieldset[disabled] .btn-theme {
   background-attachment: fixed;
 }
 
+.image_13{
+  background: url(../img/1920x1080/16.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 
 
 /*------------------------------------------------------------------
@@ -517,6 +524,52 @@ fieldset[disabled] .btn-theme {
 }
 
 .service:hover .service-info {
+  -webkit-transform: translate3d(0, -30%, 0);
+  -moz-transform: translate3d(0, -30%, 0);
+  transform: translate3d(0, -30%, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+
+
+/*------------------------------------------------------------------
+    [Product]
+------------------------------------------------------------------*/
+.product {
+  background: #fff;
+  padding: 15px;
+}
+
+.product .product-element,
+.product .product-info {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.product .product-icon {
+  display: block;
+  font-size: 30px;
+  color: #999caa;
+  margin-bottom: 30px;
+}
+
+.product:hover .product-element {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  -moz-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.product:hover .product-info {
   -webkit-transform: translate3d(0, -30%, 0);
   -moz-transform: translate3d(0, -30%, 0);
   transform: translate3d(0, -30%, 0);
