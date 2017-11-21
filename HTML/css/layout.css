@@ -425,6 +425,14 @@ fieldset[disabled] .btn-theme {
 /*------------------------------------------------------------------
     [Imagenes Background]
 ------------------------------------------------------------------*/
+.image_01{
+  background: url(../img/1920x1080/01.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
 .image_03{
   background: url(../img/1920x1080/03.jpg) no-repeat;
   background-size: cover;
