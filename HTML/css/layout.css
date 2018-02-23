@@ -122,6 +122,8 @@ h2 {
 
 h3 {
   font-size: 22px;
+  color: #6a7082;
+  font-weight: 200;
 }
 
 h4 {
@@ -450,6 +452,13 @@ fieldset[disabled] .btn-theme {
 
 .image_13{
   background: url(../img/1920x1080/16.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.image_ar{
+  background: url(../img/970x647/01.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
