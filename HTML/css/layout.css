@@ -99,6 +99,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 15px;
 }
 
+
+
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
   color: #515769;
 }
@@ -362,7 +364,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/02.jpg) no-repeat;
+  background: url(../img/1920x1080/financial-2860753_1920.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -457,8 +459,9 @@ fieldset[disabled] .btn-theme {
   background-attachment: fixed;
 }
 
-.image_ar{
-  background: url(../img/970x647/01.jpg) no-repeat;
+.image_wdi{
+  background: #fff;
+  box-shadow: 0px 0px 15px 0px #888888;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -473,7 +476,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/10.jpg) no-repeat;
+  background: url(../img/1920x1080/night-photograph-2183637_1920.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 250px 0 200px;
