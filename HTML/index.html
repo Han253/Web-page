@@ -256,26 +256,26 @@
                     <h2>Contáctenos</h2>
 
 
-                    <form data-toggle="validator" role="form">
+                    <form data-toggle="validator" role="form" action="php/contact_form.php" method="post">
                         <div class="form-group">
                             <div class="row row-space-2 margin-b-4">
                                 <div class="col-sm-4 sm-margin-b-5">
-                                    <input type="text" class="form-control" id="nombre" required pattern="([A-z0-9À-ž\s]){2,}" title="Ingresa un nombre válido" placeholder="Nombre" minlength="3" maxlength="20" required>
+                                    <input type="text" class="form-control" name="name" required pattern="([A-z0-9À-ž\s]){2,}" title="Ingresa un nombre válido" placeholder="Nombre" minlength="3" maxlength="20" required>
                                 </div>
 
        
                                 <div class="col-md-4 md-margin-b-4">
-                                    <input type="email" class="form-control" id="correo" placeholder="correo@electronico.com">
+                                    <input type="email" class="form-control" name="email" placeholder="correo@electronico.com">
                                 </div>
 
                                 <div class="col-md-4 sm-margin-b-4">
-                                    <input type="text" class="form-control" id="telefono" placeholder="Número Telefónico" minlength="7" maxlength="15" required>
+                                    <input type="text" class="form-control" name="phone" placeholder="Número Telefónico" minlength="7" maxlength="15" required>
                                 </div>
                             </div>
 
                             <div class="row row-space-2">
                                 <div class="col-sm-12 sm-margin-b-4" >
-                                    <textarea class="form-control" id="escribe" rows="3" minlength=""3 placeholder="Mensaje"></textarea>
+                                    <textarea class="form-control" name="message" rows="3" minlength=""3 placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
 
@@ -286,7 +286,7 @@
                         <button type="submit" class="btn btn-primary btn-theme btn-theme-sm btn-default-bg text-uppercase margin-b-5">Enviar</button>
                     </div>
 
-                    <p>Al enviar tus datos manifiestas estar de acuerdo con la Política de protección de datos personales y privacidad de EvoTI</p>
+                    <p>Al enviar tus datos manifiestas estar de acuerdo con la Política de protección de datos personales y privacidad de 3TID</p>
 
                     </form>
 
@@ -306,11 +306,11 @@
                         <div class="col-sm-2 sm-margin-b-30">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Inicio</a></li>
-                                <li class="footer-list-item"><a href="#">Servicios</a></li>
-                                <li class="footer-list-item"><a href="#">Productos</a></li>
-                                <li class="footer-list-item"><a href="#">Nosotros</a></li>
-                                <li class="footer-list-item"><a href="#">Contacto</a></li>
+                                <li class="footer-list-item"><a href="#body">Inicio</a></li>
+                                <li class="footer-list-item"><a href="#service">Servicios</a></li>
+                                <li class="footer-list-item"><a href="#products">Productos</a></li>
+                                <li class="footer-list-item"><a href="#work">Nosotros</a></li>
+                                <li class="footer-list-item"><a href="#contact">Contacto</a></li>
                             </ul>
                             <!-- End List -->
                         </div>
@@ -345,10 +345,10 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="Aironepage Logo">
+                        <img class="footer-logo" src="img/logo_3tid_4.png" alt="Aironepage Logo">
                     </div>
                     <div class="col-xs-6 text-right">
-                        <p class="margin-b-0">EvoTI 2017</p>
+                        <p class="margin-b-0">3TID 2018</p>
                     </div>
                 </div>
                 <!--// end row -->
