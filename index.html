@@ -19,7 +19,7 @@
         <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
 
-        <!-- THEME STYLES -->
+        <!-- THEME STYLES -->       
         <link href="css/layout.css" rel="stylesheet" type="text/css"/>
         <link href="css/fontawesome-all.css" rel="stylesheet">
 
@@ -73,19 +73,61 @@
         </header>
         <!--========== END HEADER ==========-->
 
-        <!--========== SLIDER ==========-->
-        <div class="promo-block">
-            <div class="container">
-                <div class="margin-b-40">
-                    <h1 class="promo-block-title">Big Data en su Empresa</h1>
-                    <p class="promo-block-text">Soluciones Analíticas para explotar el potencial de sus datos</p>
-                </div>
-                <!--<a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="https://www.youtube.com/watch?v=DNR2AY7b6kI" title="Intro Video"><i class="btn-icon icon-control-play"></i> Ver Video</a>-->
+            <div class="row">
+                <!-- Carousel -->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000" pause=false>
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="promo-block">
+                                <div class="container">
+                                    <div class="margin-b-40">
+                                        <h1 class="promo-block-title">Big Data en su Empresa</h1>
+                                        <p class="promo-block-text">Soluciones Analíticas para explotar el potencial de sus datos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="promo-block-2">
+                                <div class="container">
+                                    <div class="margin-b-40">
+                                        <h1 class="promo-block-title">Machine Learning en su Empresa</h1>
+                                        <p class="promo-block-text">Soluciones Analíticas para explotar el potencial de sus datos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="promo-block-3">
+                                <div class="container">
+                                    <div class="margin-b-40">
+                                        <h1 class="promo-block-title">Data Science en sus datos</h1>
+                                        <p class="promo-block-text">Soluciones Analíticas para explotar el potencial de sus datos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div><!-- /carousel -->
             </div>
         </div>
+
+
+
         <!--========== SLIDER ==========-->
-
-
 
         <!--========== PAGE LAYOUT ==========-->
          <!-- Service -->
@@ -304,7 +346,7 @@
                         <h2>Nosotros</h2>
                         <blockquote >
                             <div class="margin-b-20">
-                                 Somos una empresa Colombiana legalmente constituida con el objetivo de mejorar los procesos y productos de las empresas mejorando la calidad de vida de los seres humanos por medio de la tecnología y la información.
+                                 Somos una empresa Colombiana con el objetivo de mejorar aplicar los beneficios de la inteligencia artificial y la analítica de datos en las empresas mejorando los procesos y la toma de decisiones clave.
                             </div>
                         </blockquote>
                     </div>
@@ -319,8 +361,9 @@
         <div id="contact">
             <div class="content-md container">
                 <div class="row">
-                <!-- FORMULARIO LUCHO DESDE AQUÍ-->
-                    <h2>Contáctenos</h2>
+                    <div class="col-md-9" >
+
+                    <h2>Contacto</h2>
 
 
                     <form data-toggle="validator" role="form" action="php/contact_form.php" method="post">
@@ -353,11 +396,10 @@
                         <button type="submit" class="btn btn-primary btn-theme btn-theme-sm btn-default-bg text-uppercase margin-b-5">Enviar</button>
                     </div>
 
-                    <p>Al enviar tus datos manifiestas estar de acuerdo con la Política de protección de datos personales y privacidad de 3TID</p>
+                    <!--<p>Al enviar tus datos manifiestas estar de acuerdo con la Política de protección de datos personales y privacidad de 3TID</p> -->
 
                     </form>
-
-                 <!-- HASTA AQUÍ-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -375,7 +417,7 @@
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><a href="#body">Inicio</a></li>
                                 <li class="footer-list-item"><a href="#service">Soluciones</a></li>
-                                <li class="footer-list-item"><a href="#products">Productos</a></li>
+                                <li class="footer-list-item"><a href="#products">Demos</a></li>
                                 <li class="footer-list-item"><a href="#work">Nosotros</a></li>
                                 <li class="footer-list-item"><a href="#contact">Contacto</a></li>
                             </ul>
@@ -397,8 +439,8 @@
                         <div class="col-sm-3">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Política de Privacidad</a></li>
-                                <li class="footer-list-item"><a href="#">Términos &amp; Condiciones</a></li>
+                                <!--<li class="footer-list-item"><a href="#">Política de Privacidad</a></li>-->
+                                <!--<li class="footer-list-item"><a href="#">Términos &amp; Condiciones</a></li>-->
                             </ul>
                             <!-- End List -->
                         </div>
