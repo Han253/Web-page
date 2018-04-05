@@ -496,7 +496,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/network-3152677_1920.jpg) no-repeat;
+  background: url(../img/1920x1080/tech-3041437_1920.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 250px 0 200px;
@@ -570,7 +570,7 @@ fieldset[disabled] .btn-theme {
   position: relative;
   z-index: 1;
   text-align: center;
-  background: url(../img/1920x1080/tech-3041437_1920.jpg) no-repeat;
+  background: url(../img/1920x1080/network-3152677_1920.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 250px 0 200px;
@@ -1298,7 +1298,7 @@ fieldset[disabled] .btn-theme {
   border-bottom: 1px solid #edf0f2;
   text-align: center;
   background: #fff;
-  padding: 30px;
+  padding: 30px;  
   margin-bottom: 0;
 }
 
@@ -1366,7 +1366,7 @@ fieldset[disabled] .btn-theme {
   	[Background Colors]
 ------------------------------------------------------------------*/
 .bg-color-base {
-  background: #17bed2 !important;
+  background: #5270ff !important;
 }
 
 .bg-color-white {

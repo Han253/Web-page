@@ -18,7 +18,7 @@ var Layout = function () {
         if ($(window).scrollTop() > 60) {
             $("body").addClass("page-on-scroll");
         } else {
-            $("body").removeClass("page-on-scroll");
+            
         }
     }
 
