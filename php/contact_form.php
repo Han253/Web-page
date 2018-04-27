@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'ambigus9@gmail.com';  // please change this email id
+	$to = 'ambigus9@gmail.com,john.osorio.p@gmail.com';  // please change this email id
 	
 	$errors = array();
 	// print_r($_POST);
@@ -52,8 +52,8 @@
 	$message = $_POST['message'];
 	$phone = $_POST['phone'];
 	$from = $email;
-	$subject = 'Nuevo mensaje de Contacto para Russiabogados';
-	$headers = 'From: contacto@russiabogados.com' . "\r\n" .
+	$subject = 'Nuevo mensaje de Contacto para Datawop';
+	$headers = 'From: contacto@datawop.com' . "\r\n" .
     'Reply-To: '.$_POST['email']. "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
@@ -65,7 +65,7 @@
 	if (mail ($to, $subject, $body, $headers)) {
 		$result .= '<div class="alert alert-success alert-dismissible" role="alert">';
  		$result .= '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>';
-		$result .= 'Gracias!! Hemos recibido tu mensaje, y nos pondremos en contacto contigo tan pronto sea posible';
+		$result .= 'Gracias! Hemos recibido su mensaje, y nos pondremos en contacto usted';
 		$result .= '</div>';
 
 		echo $result;
