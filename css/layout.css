@@ -519,6 +519,10 @@ fieldset[disabled] .btn-theme {
 }
 
 @media (max-width: 480px) {
+  .promo-block{
+    padding: 150px 0 200px;
+  }
+
   .promo-block .promo-block-title {
     font-size: 50px;
   }
@@ -556,6 +560,11 @@ fieldset[disabled] .btn-theme {
 }
 
 @media (max-width: 480px) {
+
+  .promo-block-2{
+    padding: 150px 0 200px;
+  }
+
   .promo-block-2 .promo-block-title {
     font-size: 50px;
   }
@@ -593,6 +602,11 @@ fieldset[disabled] .btn-theme {
 }
 
 @media (max-width: 480px) {
+
+  .promo-block-3{
+    padding: 150px 0 200px;
+  }
+
   .promo-block-3 .promo-block-title {
     font-size: 50px;
   }
